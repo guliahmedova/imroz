@@ -4,6 +4,8 @@ import SecondSection from "../components/SecondSection";
 import HomeServices from "../components/HomeServices";
 import headerCard from "../datas/headerCard";
 import RecentWork from "../components/RecenWorks";
+import CompanyGrowth from "../components/CompanyGrowth";
+import LittleTeamImages from "../components/LittleTeamImages";
 
 export default function Home() {
     const headerCards = headerCard.map(item => {
@@ -24,6 +26,8 @@ export default function Home() {
             <SecondSection />
             <HomeServices />
             <RecentWork/>
+            <CompanyGrowth/>
+            <LittleTeamImages/>
         </>
     )
 }

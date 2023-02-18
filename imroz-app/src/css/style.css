@@ -649,4 +649,110 @@ a {
     margin-bottom: 20px;
   }
 }
+.company--growth {
+  height: auto;
+  width: 100%;
+  background-color: rgb(249, 249, 249);
+  padding: 3rem 0;
+}
+.company--growth .colorful-title {
+  background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, #FD4766 79.69%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 112px;
+  font-weight: 900;
+  text-align: center;
+}
+.company--growth .main-title {
+  margin-bottom: 40px;
+  color: #1f1f25;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+  text-align: center;
+}
+.company--growth .desc {
+  color: #777575;
+  text-align: center;
+}
+.company--growth .column {
+  float: left;
+  width: 20%;
+  height: auto;
+  padding: 3rem 0;
+  margin-top: 2.5rem;
+  background-color: white;
+  border-radius: 10px;
+}
+.company--growth .column .column-title {
+  color: #1f1f25;
+  font-size: 54px;
+  line-height: 64px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.company--growth .column .text {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(29, 29, 36, 0.75);
+  font-weight: 400;
+  text-align: center;
+}
+.company--growth .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .company--growth .column {
+    width: 100% !important;
+  }
+}
+.little-team-images {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem 0;
+}
+.little-team-images .col-lg-6 {
+  width: 50%;
+}
+.little-team-images .text {
+  font-size: 30px;
+  line-height: 48px;
+  color: #18181b;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: -16px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 1rem;
+}
+.little-team-images .text img {
+  position: absolute;
+  width: 177px;
+  height: 100%;
+  left: -58px;
+  top: -57px;
+  opacity: 1;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.little-team-images .footer-text {
+  font-size: 18px;
+  line-height: 50px;
+  color: #8c8c8c;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.little-team-images .footer-text span {
+  color: #FD4766;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
 /*importing...*/
