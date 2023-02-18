@@ -1,0 +1,22 @@
+.main--home {
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: inherit;
+    background-position: 0 0;
+    box-shadow: 0 0 0 0 #ffffff;
+    background-blend-mode: overlay;
+    object-fit: cover;
+    background-color: rgba(1, 0, 1, 0.8);
+    opacity: 0.9.6;
+
+    padding-bottom: 10px;
+
+    .title--div{
+        margin-top: 80px;
+        .title {
+            @include colourful-text(100px);
+        }
+    }
+
+}

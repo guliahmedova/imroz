@@ -1,0 +1,80 @@
+.home--services {
+    margin-top: 500px;
+    background-color: rgb(249, 249, 249);
+    height: auto;
+    width: 100%;
+    padding: 3rem 0;
+
+    .colorful-title {
+        @include colourful-text(16px);
+    }
+
+    .main-title {
+        margin-bottom: 40px;
+        color: #1f1f25;
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .desc {
+        color: #777575;
+        text-align: center;
+    }
+
+    .column {
+        float: left;
+        width: 33.3%;
+        padding: 0 10px;
+        margin-bottom: 2rem;
+        transform: translateY(10deg);
+        &:hover {
+            transform: translateY(-7px);
+            transition: 0.5s all;
+        }
+    }
+
+    .row {
+        margin: 0 -5px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 2rem;
+        margin-top: 3rem;
+        background-color: white;
+        cursor: pointer;
+        i {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 900;
+            margin: 1rem 0;
+        }
+
+        p {
+            margin: 1rem 0;
+            color: #777575;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home--services {
+        .column {
+            width: 100%;
+            display: block;
+            margin: 1rem;
+            margin-bottom: 20px;
+        }
+    }
+}

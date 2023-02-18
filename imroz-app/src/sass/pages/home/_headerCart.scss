@@ -1,0 +1,39 @@
+.main--cart{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin: 90px auto;
+    .cart{
+        text-align: center;
+        & :is(i){
+            color: $base-color;
+            font-size: 60px;
+        }
+
+        .cart--title{
+            color: #ffffff;
+            font-size: 24px;
+            line-height: 34px;
+            font-weight: 900;
+            margin: 20px 0;
+        }
+
+        .cart--desc{
+            color: #B8B6B6;
+            font-size: 17px;
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 961px){
+    .main--cart{
+        display: flex;
+        flex-direction: column;
+        .cart{
+            margin-bottom: 20px;
+        }
+    }
+}

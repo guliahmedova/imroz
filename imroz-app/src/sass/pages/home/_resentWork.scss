@@ -1,0 +1,125 @@
+.resent-works {
+    height: auto;
+    width: 100%;
+    padding: 3rem 0;
+    .colorful-title {
+        @include colourful-text(16px);
+    }
+    .main-title {
+        margin-bottom: 40px;
+        color: #1f1f25;
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .desc {
+        color: #777575;
+        text-align: center;
+    }
+}
+.row-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.our-team {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 3rem;
+border-radius: 10px;
+    &:hover::before {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 85%;
+        display: block;
+        z-index: 1;
+        transition: .5s all;
+        content: "";
+        background: linear-gradient(to bottom, rgba(15, 15, 15, 0), rgba(197, 18, 18, 0.75) 100%);
+        transition: opacity 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+        cursor: pointer;
+    }
+}
+.our-team img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.2, 1.2) translateX(-25px);
+    transition: all 0.2s linear 0s;
+}
+.our-team:hover img {
+    transform: scale(1.2);
+}
+.our-team .over-layer {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.our-team .team-content {
+    width: 90%;
+    position: absolute;
+    bottom: -40px;
+    padding: 0 25px;
+    transition: all 0.4s ease 0s;
+    margin-bottom: 2rem;
+}
+.our-team:hover .team-content {
+    bottom: 1%;
+}
+.our-team .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+.our-team .post {
+    display: block;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.our-team .description {
+    font-size: 15px;
+    color: #fff;
+    transform: translateY(100%);
+    transition: all 0.3s ease 0.1s;
+}
+.our-team:hover .description {
+    transform: translateY(0);
+}
+.our-team .social-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 10%;
+    height: 100%;
+    background: #30a5ab;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.our-team .social-links li {
+    margin: 20px 0;
+}
+.our-team .social-links li a {
+    color: #fff;
+    padding: 10px 0;
+}
+.our-team .social-links li a:hover {
+    text-decoration: none;
+}
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 20px;
+    }
+}

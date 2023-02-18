@@ -1,0 +1,10 @@
+@mixin colourful-text($font-size) {
+  background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, $base-color 79.69%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif;
+  font-size: $font-size;
+  line-height: 112px;
+  font-weight: 900;
+  text-align: center;
+  }
