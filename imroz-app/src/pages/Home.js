@@ -6,6 +6,7 @@ import headerCard from "../datas/headerCard";
 import RecentWork from "../components/RecenWorks";
 import CompanyGrowth from "../components/CompanyGrowth";
 import LittleTeamImages from "../components/LittleTeamImages";
+import Client from "../components/Client";
 
 export default function Home() {
     const headerCards = headerCard.map(item => {
@@ -25,9 +26,10 @@ export default function Home() {
 
             <SecondSection />
             <HomeServices />
-            <RecentWork/>
-            <CompanyGrowth/>
-            <LittleTeamImages/>
+            <RecentWork />
+            <CompanyGrowth />
+            <LittleTeamImages />
+            <Client />
         </>
     )
 }

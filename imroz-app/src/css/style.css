@@ -755,4 +755,62 @@ a {
   font-weight: 600;
 }
 
+.client {
+  height: auto;
+  width: 100%;
+  background-color: rgb(249, 249, 249);
+  padding: 3rem 0;
+}
+.client .colorful-title {
+  background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, #FD4766 79.69%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 112px;
+  font-weight: 900;
+  text-align: center;
+}
+.client .main-title {
+  margin-bottom: 40px;
+  color: #1f1f25;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+  text-align: center;
+}
+.client .desc {
+  color: #777575;
+  text-align: center;
+}
+.client .clients ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0px !important;
+  padding-left: 0px !important;
+}
+.client .clients ul li {
+  padding: 25px;
+  flex-basis: 20%;
+  text-align: center;
+}
+.client .clients ul li img {
+  opacity: 0.8;
+  transition: 0.3s;
+  max-height: 110px;
+  max-width: 150px;
+  filter: grayscale(1);
+  cursor: pointer;
+}
+.client .clients ul li img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  filter: grayscale(0);
+}
+
 /*importing...*/

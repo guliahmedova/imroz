@@ -1,0 +1,53 @@
+.client {
+    height: auto;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    padding: 3rem 0;
+    .colorful-title {
+        @include colourful-text(16px);
+    }
+    .main-title {
+        margin-bottom: 40px;
+        color: #1f1f25;
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .desc {
+        color: #777575;
+        text-align: center;
+    }
+
+    .clients {
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 0px !important;
+            padding-left: 0px !important;
+            li {
+                padding: 25px;
+                flex-basis: 20%;
+                text-align: center;
+                img {
+                    opacity: 0.8;
+                    transition: 0.3s;
+                    max-height: 110px;
+                    max-width: 150px;
+                    filter: grayscale(1); 
+                    cursor: pointer;
+                    &:hover{
+                        transform: scale(1.1);
+                        opacity: 1;
+                        filter: grayscale(0);
+                    }
+                }
+            }
+        }
+    }
+}
