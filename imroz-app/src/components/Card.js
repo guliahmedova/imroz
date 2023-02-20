@@ -5,7 +5,7 @@ export default function Card(props) {
     }
 
     return (
-        <div className="column">
+        <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card">
                 <i style={styles} className={props.icon}></i>
                 <h3>{props.card_title}</h3>

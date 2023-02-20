@@ -9,21 +9,9 @@ import LittleTeamImages from "../components/LittleTeamImages";
 import Client from "../components/Client";
 
 export default function Home() {
-    const headerCards = headerCard.map(item => {
-        return (<HeaderCart key={item.id} {...item} />)
-    })
-
     return (
         <>
-            <div style={{ backgroundImage: "url(" + "./images/big_bg_image.jpg" + ")", }} className="main--home">
-                <Header />
-
-                <div className="container title--div">
-                    <h3 className="title">Design Driven Development Your Web Products.</h3>
-                </div>
-                <div className="container main--cart">{headerCards}</div>
-            </div>
-
+            <Header/>
             <SecondSection />
             <HomeServices />
             <RecentWork />

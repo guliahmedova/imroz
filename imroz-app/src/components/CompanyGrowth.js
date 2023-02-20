@@ -11,7 +11,7 @@ export default function CompanyGrowth() {
         <section className="company--growth">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-12">
+                    <div className="col-lg-12 col-md-12 col-sm-12">
                         <div className="colorful-title">
                             <h3>Experts growts</h3>
                         </div>

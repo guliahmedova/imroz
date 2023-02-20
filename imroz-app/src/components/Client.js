@@ -11,7 +11,7 @@ export default function Client(){
         <section className="client">
               <div className="container">
                 <div className="row">
-                    <div className="col-lg-12">
+                    <div className="col-lg-12 col-md-12 col-sm-12">
                         <div className="colorful-title">
                             <h3>Top clients</h3>
                         </div>

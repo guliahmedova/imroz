@@ -20,10 +20,9 @@
     }
 
     .column {
-        float: left;
-        width: 20%;
         height: auto;
         padding: 3rem 0;
+        margin: 1rem;
         margin-top: 2.5rem;
         background-color: white;
         border-radius: 10px;
@@ -51,10 +50,4 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-   .company--growth{
-    .column {
-        width: 100% !important;
-    }
-   }
-}
+

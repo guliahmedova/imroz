@@ -49,6 +49,7 @@ table {
 html,
 body {
     height: 100%;
+    transition: .5s all;
 }
 body {
     line-height: 1.5;
@@ -86,73 +87,15 @@ a {
     text-decoration: none;
 }
 
-//most usefull classes
 
-.container {
-    max-width: 1260px;
-    padding: 0;
-    margin: 0 auto;
-}
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-.col {
-    flex: 1;
-    padding: 10px;
-    box-sizing: border-box;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-// --- Columns Sizes ---
-
-
-.col {
-    flex: 1;
-    padding: 10px;
-    box-sizing: border-box;
-}
-.col-lg-12{
-    width: 100%;
-}
-.col-lg-4{
-    width: 33.3%;
-}
-.col-md-4{
-    width: 389px;
-    height: 85%;
-}
-
-// --- Columns Sizes ---
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
 
 //--------------------------
 
 /*importing...*/
 @import "./variables.scss";
 @import "./utilities/utilities";
-@import "./header";
 
+@import "./header";
 
 @import "./pages/home/main";
 @import "./pages/home/headerCart";

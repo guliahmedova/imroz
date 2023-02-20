@@ -27,9 +27,11 @@ export default function CompanyGrowthCard(props) {
 
 
     return (
-        <div className="column">
+        <div className="col-lg-3 col-md-4 col-sm-6">
+            <div className="column">
             <h2 className="column-title">{count}+</h2>
             <p className="text">{title}</p>
+            </div>
         </div>
     )
 }

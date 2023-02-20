@@ -1,5 +1,4 @@
 .home--services {
-    margin-top: 500px;
     background-color: rgb(249, 249, 249);
     height: auto;
     width: 100%;
@@ -23,34 +22,19 @@
         text-align: center;
     }
 
-    .column {
-        float: left;
-        width: 33.3%;
-        padding: 0 10px;
-        margin-bottom: 2rem;
+    
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 2rem;
+        margin-top: 3rem;
+        margin: 1rem;
+        background-color: white;
+        cursor: pointer;
         transform: translateY(10deg);
         &:hover {
             transform: translateY(-7px);
             transition: 0.5s all;
         }
-    }
-
-    .row {
-        margin: 0 -5px;
-    }
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        padding: 2rem;
-        margin-top: 3rem;
-        background-color: white;
-        cursor: pointer;
         i {
             font-size: 40px;
         }
@@ -64,17 +48,6 @@
         p {
             margin: 1rem 0;
             color: #777575;
-        }
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .home--services {
-        .column {
-            width: 100%;
-            display: block;
-            margin: 1rem;
-            margin-bottom: 20px;
         }
     }
 }

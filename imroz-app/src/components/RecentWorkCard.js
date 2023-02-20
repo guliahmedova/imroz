@@ -1,6 +1,6 @@
 export default function RecentWorkCard(props) {
     return (
-        <div className="col-md-4" >
+        <div className="col-lg-4 col-md-4 sol-sm-6" >
             <div className="our-team">
                 <img src={`images/${props.imageUrl}`} alt="" />
                 <div className="over-layer">

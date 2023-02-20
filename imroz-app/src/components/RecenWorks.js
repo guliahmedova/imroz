@@ -11,7 +11,7 @@ export default function RecentWork(){
         <section className="resent-works">
         <div className="container">
             <div className="row">
-                <div className="col-lg-12">
+                <div className="col-lg-12 col-md-12 col-sm-12">
                     <div className="colorful-title">
                         <h3>Our project</h3>
                     </div>
@@ -25,7 +25,7 @@ export default function RecentWork(){
                     </div>
                 </div>
             </div>
-            <div className="row row-card">{recenWorkCards}</div>
+            <div className="row">{recenWorkCards}</div>
         </div>
     </section>
     )
