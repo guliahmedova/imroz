@@ -1,0 +1,156 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+
+    .footer-top {
+        padding: 4rem;
+        border-bottom: 0.5px solid gray;
+        h1 {
+            color: white;
+            font-size: 36px;
+            line-height: 47px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid gray;
+            border-radius: 50px;
+            cursor: pointer;
+            width: auto;
+            text-align: center;
+            &:hover {
+                transition: 0.5s all;
+                background-color: $base-color;
+            }
+        }
+        a {
+            background-color: rgba(68, 68, 68, 0);
+            color: #fff;
+            padding: 26px 60px 26px 60px;
+            font-size: 18px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+
+    .footer-bottom {
+        margin: 0;
+        padding: 0%;
+
+        .row {
+            justify-content: space-between;
+        }
+
+        .card {
+            margin: 5rem 0;
+            img {
+                width: 135px;
+                max-width: 135px;
+            }
+            p {
+                color: gray;
+                margin-top: 4rem;
+                font-size: 18px;
+            }
+        }
+
+        h2 {
+            color: white;
+            font-weight: 800;
+        }
+
+        .link {
+            margin: 5rem 0;
+            h2 {
+                margin-bottom: 2rem;
+            }
+            ul {
+                li {
+                    a {
+                        color: gray;
+                        display: inline-block;
+                        position: relative;
+                        text-decoration: none;
+                        &:hover {
+                            transition: 0.5s all;
+                            color: $base-color;
+                        }
+
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            transform: scaleX(0);
+                            border-radius: 5px;
+                            height: 0.05em;
+                            bottom: 0;
+                            left: 0;
+                            background: $base-color;
+                            transform-origin: bottom right;
+                            transition: transform 0.25s ease-out;
+                        }
+
+                        &:hover::after {
+                            transform: scaleX(1);
+                            transform-origin: bottom left;
+                        }
+                    }
+                    margin: 1rem 0;
+                }
+            }
+        }
+
+        .contact {
+            margin: 5rem 0;
+            color: gray;
+            h2 {
+                margin-bottom: 2rem;
+            }
+            .sosial-medias {
+                display: flex;
+                gap: 2rem;
+                li:hover {
+                    transition: 0.5s all;
+                    color: $base-color;
+                    cursor: pointer;
+                }
+            }
+            ul {
+                li {
+                    margin: 1rem 0;
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1113px) {
+    .footer-bottom {
+        .card {
+            width: 100%;
+            img {
+                width: 100%;
+                margin: auto;
+            }
+            margin: 2rem !important;
+            text-align: center !important;
+        }
+        .link {
+            text-align: center !important;
+            margin: 2rem !important;
+        }
+        .contact {
+            margin: 2rem 0 !important;
+        }
+        .row {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr !important;
+            grid-gap: 10px !important;
+        }
+    }
+}

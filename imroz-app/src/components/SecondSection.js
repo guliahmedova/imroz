@@ -23,7 +23,7 @@ export default function SecondSection() {
                                 It is a paradisematic country, in which roasted parts of sentences
                             </div>
 
-                            <div className="footer">
+                            <div className="footer-text">
                                 <a href="#">PURCHASE IMROZ</a>
                             </div>
                         </div>
