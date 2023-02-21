@@ -129,6 +129,31 @@
     }
 }
 
+.back-to-top-button {
+    transition: .5s all;
+    background-color: #292829;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+
+    position: fixed; 
+    left: 92%;
+    bottom: 40px;
+    z-index: 1;
+    cursor: pointer;
+    color: green;
+    &:hover{
+        background-color: black;
+    }
+    i{
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+    }
+}
+
 @media only screen and (max-width: 1113px) {
     .footer-bottom {
         .card {

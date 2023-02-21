@@ -1,6 +1,7 @@
 import footerContactData from "../datas/footerContactData";
 import footerQuickLinkData from "../datas/footerQuickLinkData";
 import sosialMediasData from "../datas/sosialMediasData";
+import ScrollButton from "./ScrollButton";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -80,9 +81,9 @@ export default function Footer() {
                     </div>
                 </div>
             </section>
+            <ScrollButton/>
         </footer>
     )
 }
 
-//responsive
 //bottom-to-top button
