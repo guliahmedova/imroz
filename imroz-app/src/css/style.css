@@ -1157,4 +1157,163 @@ section {
   text-transform: uppercase;
 }
 
+.quick-contact-adress {
+  background-color: rgb(249, 249, 249);
+  height: auto;
+  width: 100%;
+  margin: 0%;
+}
+.quick-contact-adress .colorful-title {
+  background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, #FD4766 79.69%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.quick-contact-adress .main-title {
+  margin-bottom: 40px;
+  color: #1f1f25;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+  text-align: center;
+}
+.quick-contact-adress .desc {
+  color: #777575;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.quick-contact-adress .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  margin-top: 5rem;
+  margin: 1rem;
+  background-color: white;
+  cursor: pointer;
+  transform: translateY(10deg);
+}
+.quick-contact-adress .card:hover {
+  transform: translateY(-7px);
+  transition: 0.5s all;
+}
+.quick-contact-adress .card i {
+  font-size: 40px;
+  color: #FD4766;
+}
+.quick-contact-adress .card h3 {
+  margin: 1rem 0;
+  font-weight: 900;
+  font-size: 20px;
+}
+.quick-contact-adress .card ul {
+  padding: 1rem 0;
+}
+.quick-contact-adress .card ul li {
+  color: gray;
+}
+
+.contact-us .form-card {
+  width: 100%;
+}
+.contact-us .form-card h2 {
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  line-height: 18px;
+  border-radius: 4px;
+  color: #FD4766;
+  text-align: left;
+}
+.contact-us .form-card h1 {
+  font-weight: 900;
+  font-size: 50px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.contact-us .form-card ul {
+  margin-bottom: 2rem;
+}
+.contact-us .form-card ul li {
+  color: gray;
+  font-size: 18px;
+}
+.contact-us .form-card ul li a {
+  font-weight: 900;
+  color: black;
+  font-size: 19px;
+}
+.contact-us .form-card ul li a:hover {
+  transition: 0.5s all;
+  color: #FD4766;
+}
+.contact-us .form-card .form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.contact-us .form-card .form input {
+  background: #ffffff;
+  color: rgba(29, 29, 36, 0.75);
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+  height: 55px;
+  transition: 0.35s;
+  margin: 1rem 0;
+}
+.contact-us .form-card .form textarea {
+  resize: none;
+  background: #ffffff;
+  color: rgba(29, 29, 36, 0.75);
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+  height: 120px;
+  transition: 0.35s;
+}
+.contact-us .form-card .form input:focus, .contact-us .form-card .form textarea:focus {
+  outline: none;
+}
+.contact-us .form-card .form .submit-btn {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FD4766;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 1.5rem;
+  font-size: 18px;
+  margin: 2rem 0;
+  border: 2px solid #FD4766;
+  cursor: pointer;
+}
+.contact-us .form-card .form .submit-btn:hover {
+  transition: 0.5s all;
+  background-color: white;
+  color: #FD4766;
+  border: 2px solid #FD4766;
+}
+.contact-us .card-image {
+  width: 100%;
+}
+.contact-us .card-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.map {
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
 /*importing...*/

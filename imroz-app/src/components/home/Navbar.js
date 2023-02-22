@@ -21,6 +21,9 @@ export default function Navbar() {
         </a>
 
         <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        
+
         
       </div>
     </header>
