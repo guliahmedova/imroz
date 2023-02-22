@@ -5,7 +5,7 @@ export default function SecondSection() {
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <div className="img--side">
-                            <img src="./images/second_sec_bg.png" alt="" />
+                            <img src="./images/home/second_sec_bg.png" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">

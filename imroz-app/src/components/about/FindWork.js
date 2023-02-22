@@ -1,6 +1,7 @@
 export default function FindWork() {
     return (
         <section className="find-work">
+            <img src="./images/about/st-bg.jpg" alt="" />
             <div className="container-box">
                 <div className="content">
                     <h1>Find Your Work Now</h1>

@@ -1,6 +1,6 @@
-import footerContactData from "../datas/footerContactData";
-import footerQuickLinkData from "../datas/footerQuickLinkData";
-import sosialMediasData from "../datas/sosialMediasData";
+import footerContactData from "../../datas/home/footerContactData";
+import footerQuickLinkData from "../../datas/home/footerQuickLinkData";
+import sosialMediasData from "../../datas/home/sosialMediasData";
 import ScrollButton from "./ScrollButton";
 import { Link } from "react-router-dom";
 
@@ -43,7 +43,7 @@ export default function Footer() {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="card">
-                                <img src="./images/logo-footer.png" alt="" />
+                                <img src="./images/home/logo-footer.png" alt="" />
                                 <p>
                                     Copyright © 2022 Imroz Joomla 4 Template. <br />
                                     Built with love by PayoThemes All rights <br />

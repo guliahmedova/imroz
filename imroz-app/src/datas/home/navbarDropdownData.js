@@ -2,7 +2,7 @@ export default [
     {
         id: "1",
         item: "Home",
-        to: null,
+        to: "",
         item_list: [
             {
                 id: "00",
@@ -50,16 +50,16 @@ export default [
         id: "2",
         item: "About",
         to: "/about",
-        item_list: [null]
+        item_list: [""]
     },
     {
         id: "3",
         item: "Service",
-        to: null,
+        to: "",
         item_list: [
             {
                 id: "11",
-                sub_item: "service",
+                sub_item: "Service",
                 to: "/service"
             },
             {
@@ -72,7 +72,7 @@ export default [
     {
         id: "4",
         item: "Pages",
-        to: null,
+        to: "",
         item_list: [
             {
                 id: "21",
@@ -98,8 +98,8 @@ export default [
     },
     {
         id: "5",
-        item: "contact",
+        item: "Contact",
         to: "/contact",
-        item_list: [null]
+        item_list: [""]
     }
 ]

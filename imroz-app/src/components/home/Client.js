@@ -1,15 +1,15 @@
-import clients from "../datas/clients";
+import clients from "../../datas/home/clients.js";
 
-export default function Client(){
-    const clientElements=clients.map(item=>{
-        return(
+export default function Client() {
+    const clientElements = clients.map(item => {
+        return (
             <li key={item.id}><img src={`${item.image}-${item.id}.png`} alt="" /></li>
         )
     })
 
-    return(
+    return (
         <section className="client">
-              <div className="container">
+            <div className="container">
                 <div className="row">
                     <div className="col-lg-12 col-md-12 col-sm-12">
                         <div className="colorful-title">
@@ -24,7 +24,7 @@ export default function Client(){
                 <div className="row">
                     <div className="clients">
                         <ul>
-                           {clientElements}
+                            {clientElements}
                         </ul>
                     </div>
                 </div>

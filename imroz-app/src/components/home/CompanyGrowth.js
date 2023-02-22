@@ -1,5 +1,5 @@
 import CompanyGrowthCard from "./CompanyGrowthCard"
-import companyGrowthData from "../datas/companyGrowthData";
+import companyGrowthData from "../../datas/home/companyGrowthData";
 
 export default function CompanyGrowth() {
 

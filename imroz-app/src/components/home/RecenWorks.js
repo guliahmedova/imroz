@@ -1,5 +1,5 @@
 import RecentWorkCard from "./RecentWorkCard";
-import recentWorkData from "../datas/recentWorksData";
+import recentWorkData from "../../datas/home/recentWorksData";
 
 export default function RecentWork(){
 

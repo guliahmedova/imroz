@@ -1,4 +1,4 @@
-import servicesData from "../datas/servicesData";
+import servicesData from "../../datas/home/servicesData";
 import Card from "./Card";
 
 export default function HomeServices() {

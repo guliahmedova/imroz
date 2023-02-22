@@ -2,8 +2,9 @@
     width: 100%;
     height: auto;
     background-color: black;
-
+    
     .footer-top {
+        margin: 0;
         padding: 4rem;
         border-bottom: 0.5px solid gray;
         h1 {
@@ -130,7 +131,7 @@
 }
 
 .back-to-top-button {
-    transition: .5s all;
+    transition: 0.5s all;
     background-color: #292829;
     width: 50px;
     height: 50px;
@@ -138,16 +139,16 @@
     border-radius: 50%;
     cursor: pointer;
 
-    position: fixed; 
+    position: fixed;
     left: 92%;
     bottom: 40px;
     z-index: 1;
     cursor: pointer;
     color: green;
-    &:hover{
+    &:hover {
         background-color: black;
     }
-    i{
+    i {
         text-align: center;
         color: white;
         font-size: 2rem;
