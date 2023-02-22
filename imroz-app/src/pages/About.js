@@ -6,13 +6,13 @@ import Client from "../components/home/Client";
 import Footer from "../components/home/Footer";
 export default function About() {
     return (
-        <main>
+        <>
             <Navbar />
             <SecondSection/>
             <CompanyGrowth/>
             <FindWork />
             <Client/>
             <Footer/>
-        </main>
+        </>
     )
 }

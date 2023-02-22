@@ -710,6 +710,7 @@ section {
   height: auto;
   width: 100%;
   padding: 3rem 0;
+  margin: 0%;
 }
 .home--services .colorful-title {
   background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, #FD4766 79.69%);
@@ -1314,6 +1315,10 @@ section {
   width: 100%;
   margin: 0%;
   padding: 0%;
+  height: 50vh;
+}
+.map iframe {
+  height: 100%;
 }
 
 /*importing...*/
