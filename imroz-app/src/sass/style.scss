@@ -107,11 +107,16 @@ a {
 @import "./pages/home/companyGrowth";
 @import "./pages/home/littleTeamImages";
 @import "./pages/home/client";
+@import "./pages/home/dropdown";
 
 @import "./pages/about/findWork";
 
 @import "./pages/contact/quickAdress";
 @import "./pages/contact/contactUs";
 @import "./pages/contact/map";
+
+@import "~bootstrap/scss/bootstrap";
+@import "custom";
+
 
 /*importing...*/

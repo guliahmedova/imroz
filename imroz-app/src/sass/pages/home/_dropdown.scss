@@ -1,0 +1,27 @@
+.dropdown-menu {
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    text-align: start;
+    border-radius: 5px;
+    li {
+        cursor: pointer;
+        line-height: 2;
+        padding: 0.5rem 1rem;
+
+        &:hover {
+            transition: .5s all;
+            a {
+                color: $base-color;
+            }
+            background-color: pink;
+        }
+
+        a {
+            color: gray;
+            font-weight: 600;
+            width: 100%;
+        }
+    }
+}
